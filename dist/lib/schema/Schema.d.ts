@@ -114,6 +114,6 @@ export interface SchemaFolderJson extends Record<string, SchemaFolderJson | Sche
 }
 export interface SchemaJson extends Record<string, SchemaFolderJson | SchemaEntryJson> {
 }
-import { SchemaEntry, SchemaEntryJson, SchemaEntryOptions } from './SchemaEntry';
 import { SchemaFolder } from './SchemaFolder';
+import { SchemaEntry, SchemaEntryOptions, SchemaEntryJson } from './SchemaEntry';
 //# sourceMappingURL=Schema.d.ts.map
